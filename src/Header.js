@@ -12,7 +12,7 @@ function Header() {
         //BEM name class
         <div className="header">
             <div className="header-icons">
-                <div className="header-icon">
+                <div className="header-icon header-icon-active">
                     <HomeIcon />
                     <p>Home</p>
                 </div>

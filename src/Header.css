@@ -2,10 +2,21 @@
     color: white;
     display: flex;
     padding: 20px;
-    background-color: black;
+
     align-items: center;
     justify-content: space-between;
     overflow-x: scroll;
+}
+
+/* Hide scrollbar forChrome, Safari and Opera*/
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.header {
+    -ms-overflow-style: none; /*IE and Edge*/
+    scrollbar-width: none; /*Firefox */
 }
 
 .header-icons {
@@ -20,6 +31,9 @@
     font-size: 30px;
 }
 
+.header-icon-active > p {
+    display: inline !important;
+}
 .header-icon:hover > p {
     display: inline;
 }
