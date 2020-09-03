@@ -35,7 +35,9 @@ function Nav({ setSelectedOption }) {
             <h2 onClick={() => setSelectedOption(requests.fetchAnimation)}>
                 Animation
             </h2>
-            <h2 onClick={() => setSelectedOption(requests.fetchTV)}>TV</h2>
+            <h2 onClick={() => setSelectedOption(requests.fetchTV)}>
+                TV Movie
+            </h2>
         </div>
     );
 }
